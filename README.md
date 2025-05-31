@@ -1,3 +1,4 @@
+HEAD
 # EC2 Instance Scheduler Automation
 
 Este repositório contém dois scripts AWS Lambda em Python que automatizam o processo de ligar e desligar uma instância EC2 com base em regras de agendamento (cron) definidas no Amazon EventBridge.
@@ -25,3 +26,7 @@ Este repositório contém dois scripts AWS Lambda em Python que automatizam o pr
 
 Evite usar `"Resource": "*"` em produção. Prefira restringir o `Resource` ao ARN exato da instância EC2 quando possível.
 
+
+# ec2-scheduler-automation
+Automação de start e stop de instância EC2 usando AWS Lambda e EventBridge
+a949e3ef8b0ba96a50a98b3079e9645eebbfd022
