@@ -1,11 +1,11 @@
-HEAD
+
 # EC2 Instance Scheduler Automation
 
 Este repositório contém dois scripts AWS Lambda em Python que automatizam o processo de ligar e desligar uma instância EC2 com base em regras de agendamento (cron) definidas no Amazon EventBridge.
 
 ## Estrutura
 
-- `start_instance.py`: Script Lambda para iniciar a instância com tag `Servidor = ChipinventorDevel`
+- `start_instance.py`: Script Lambda para iniciar a instância com tag que você definirá para sua instância
 - `stop_instance.py`: Script Lambda para parar a mesma instância
 - `policies/`: Diretório contendo exemplos de políticas IAM para execução segura das funções
 - `eventbridge-cron-expressions.txt`: Exemplos de expressões cron para configurar os agendamentos no EventBridge
@@ -29,4 +29,4 @@ Evite usar `"Resource": "*"` em produção. Prefira restringir o `Resource` ao A
 
 # ec2-scheduler-automation
 Automação de start e stop de instância EC2 usando AWS Lambda e EventBridge
-a949e3ef8b0ba96a50a98b3079e9645eebbfd022
+

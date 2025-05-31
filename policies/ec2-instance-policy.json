@@ -8,10 +8,10 @@
         "ec2:StartInstances",
         "ec2:StopInstances"
       ],
-      "Resource": "arn:aws:ec2:ap-southeast-5:381491841907:instance/i-0a5ac03325ecf49d5",
+      "Resource": "arn da instância",
       "Condition": {
         "StringEquals": {
-          "ec2:ResourceTag/Servidor": "ChipinventorDevel"
+          "ec2:ResourceTag/Servidor": "Nome da instância"
         }
       }
     }

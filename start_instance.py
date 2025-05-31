@@ -1,10 +1,10 @@
 import boto3
 
 def lambda_handler(event, context):
-    ec2 = boto3.client('ec2', region_name='ap-southeast-5')
+    ec2 = boto3.client('ec2', region_name='selecione a região')
 
     filters = [
-        {'Name': 'tag:Servidor', 'Values': ['ChipinventorDevel']},
+        {'Name': 'tag:crie sua tag', 'Values': ['dê um valor à sua tag']},
         {'Name': 'instance-state-name', 'Values': ['stopped']}
     ]
 
