@@ -1,0 +1,5 @@
+# Executar às 03:00 UTC de segunda-feira
+cron(0 3 ? * MON *)
+
+# Executar às 03:00 UTC de sábado
+cron(0 3 ? * SAT *)
